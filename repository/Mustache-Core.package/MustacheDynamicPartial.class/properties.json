@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"commentStamp" : "",
+	"super" : "MustachePartial",
 	"category" : "Mustache-Core-Part",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MustachePart",
+	"name" : "MustacheDynamicPartial",
 	"type" : "normal"
 }

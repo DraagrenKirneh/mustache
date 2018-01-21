@@ -9,4 +9,5 @@ buildDelimiterExtensions
 		at: $^ put: [ self startSection: MustacheInvertedSection ];
 		at: $= put: [ self readChangeDelimiter ];
 		at: $> put: [ self readPartial ];
+		at: $* put: [ self readDynamicPartial ];
 		yourself

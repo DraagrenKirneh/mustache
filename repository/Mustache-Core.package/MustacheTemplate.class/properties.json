@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "MustacheCompositePart",
-	"category" : "Mustache-Core",
+	"category" : "Mustache-Core-Part",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
