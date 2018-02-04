@@ -3,6 +3,16 @@ Mustache is a popular templating engine that is supported in many programming la
 
 I have done an implementation for Mustache in smalltalk. It is available at smalltalkhub (update: The source has moved to github: https://github.com/noha/mustache). There is documentation available on how the syntax is to be used. Here are a few examples to show the smalltalk methods you have to call in order to make it work.
 
+# Installation
+
+```smalltalk
+Metacello new
+   baseline: 'Mustache';
+   repository: 'github://DraagrenKirneh/mustache/repository/';
+   load.
+```
+
+
 # How to use?
 
 Disclaimer: I’m talking about an implementation for smalltalk but to be honest I developed and tested it only on pharo smalltalk 2.0. If you need it for another dialect drop me note and we see what we can do.
