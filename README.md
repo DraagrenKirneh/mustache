@@ -8,7 +8,7 @@ I have done an implementation for Mustache in smalltalk. It is available at smal
 ```smalltalk
 Metacello new
    baseline: 'Mustache';
-   repository: 'github://DraagrenKirneh/mustache/repository/';
+   repository: 'github://DraagrenKirneh/mustache/repository';
    load.
 ```
 
