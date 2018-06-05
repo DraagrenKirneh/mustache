@@ -4,5 +4,6 @@ visitDynamicPartial: aMustacheDynamicPartial
 	| partial |
 	
 	partial := aMustacheDynamicPartial lookupInContext: context.
-	
-	self visit: (self partialAt: partial)
+	partial ifNotNil: [ 
+		self visit: (self partialAt: partial)
+	]
